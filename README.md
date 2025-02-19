@@ -12,9 +12,10 @@ Clarify is an open-source image processing project written in C++. It provides f
 - [Acknowledgements](#acknowledgements)
 
 ## Features
-- Image enhancement (e.g., brightness, contrast adjustments)
+- Image enhancement (e.g., Brightness, Contrast adjustments)
 - Basic image filtering techniques
-- Edge detection
+- Edge detection (Sobel operator, Difference of Gaussians)
+- Blurs (Gaussian, Box)
 - Image format conversion
 
 ## Installation
@@ -28,7 +29,7 @@ Ensure you have the following installed on your system:
 ### Building from Source
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your_username/Clarify.git
+   git clone https://github.com/IbrahimT04/Clarify.git
    cd Clarify
    ```
 2. Compile the project using g++:
